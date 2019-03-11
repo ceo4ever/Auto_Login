@@ -1,0 +1,22 @@
+a{
+    border:0px solid black;
+    margin: 0px 3px;
+    color: black;
+}
+.formActived{
+    display:block;
+    animation: fadein 0.25s ease;
+}
+.formHidden{
+    display:none;
+}
+.linkFocused{
+    border-bottom: 2px solid black;
+}
+.linkBlurred{
+    border:0px solid black;
+}
+@keyframes fadein{
+    0% {opacity:0;top:-30px;}
+    100%{opacity:1;top:0px;}
+}

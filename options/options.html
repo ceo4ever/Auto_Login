@@ -1,0 +1,26 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="semantic.min.js"></script>
+</head>
+    <body style="transform:scale(0.9) translate(0,-20px);background:whiteblue">
+        <div class="ui container center" style="margin:0%; width:80%;">
+            <h2 align="left" style="text-decoration:underline;padding:0px;margin:0px;">The AutoLogin Configuration</h2>
+            <form class="ui form segment" style="background: black; border-color: rgba(34,36,38,.15); margin:0px; margin-bottom:10px;">
+                <select class="ui dropdown fluid" style="background:red;" id="dropdownList">
+                    <option value="">Please select a site. It will fill in the form.</option>
+                </select>
+                <div class="ui segment" id="keydata" style=" background-color:lightgray; position:relative;"></div>
+                <div class="ui segment"  id="navigation" style="margin-bottom:10px;padding:6px;overflow-x:auto;font-size:16px;background-color:lightgray"></div>
+
+                <input type="button" id="add" class="ui button primary" value="AddNew"></input>
+
+                <input type="button" id="remove" class="ui button red" value="RemoveIt"></input>
+                <input type="submit" id="save" class="ui button green right floated" value="SaveAll"></input>
+            </form>
+        </div>
+    </body>
+    <script src="options.js"></script>
+</html>
